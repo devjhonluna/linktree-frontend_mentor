@@ -1,0 +1,13 @@
+---
+interface props {
+  classcard:string;
+}
+
+const {classcard}=Astro.props
+---
+
+<article class={classcard}>
+    <slot name="img-card"/>
+    <slot name="card-body"/>
+    <slot name="card-footer"/>    
+</article>

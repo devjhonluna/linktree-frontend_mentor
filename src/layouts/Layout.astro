@@ -1,0 +1,44 @@
+---
+import Resets from '@julian_cataldo/astro-resets/Resets.astro';
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/Logo.png" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Plataforma con tus 4 proyectos clave de Frontend Mentor en un solo enlace. Simplifica tu portafolio.">
+    <meta name="keywords" content="Frontend mentor, Desarrollo Web, Inspiración de Proyectos, Enlaces de Proyectos">
+    <meta name="author" content="Jhon Alexander Luna Gonzalez"/>
+    <meta name="copyright" content="© 2023 Pagina Diseñada por DEVJL"/>
+    <meta name="robots" content="index"/>
+    <title>{title}</title>
+    <Resets
+    fontSmoothing={true}
+    fontSystem={true}
+    scrollSmooth={true}
+    borderBox={true}
+    scrollBarKeep={true}
+  />
+  </head>
+  <body >
+    <slot />
+  </body>
+</html>
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,700&family=Heebo&display=swap');
+
+
+  code {
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+</style>

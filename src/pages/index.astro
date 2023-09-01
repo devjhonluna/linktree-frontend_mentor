@@ -1,0 +1,58 @@
+---
+import Card from "../components/Card.astro";
+import Layout from "../layouts/Layout.astro";
+import { listadoBasico } from "../js/listadoBasico";
+import Link from "../components/Link.astro";
+---
+
+<Layout title="LinkTree Clone de Frontend Mentor">
+  <main class="grid place-items-center p-4">
+    <Card classcard="card card-compact w-[clamp(35ch,_50%,_70ch)] shadow-xl gap-8 py-6">
+      <svg
+        role="img"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        slot="img-card"
+        fill="#3F54A3"
+        width="128"
+        height="128"
+        class="mx-auto"
+        ><title>Frontend Mentor</title><path
+          d="M12.1706 1.2719a.732.732 0 00-.7186.732v13.914a.732.732 0 00.732.732.732.732 0 00.7318-.732V2.004a.732.732 0 00-.7452-.732zm11.0741 4.1685a.7339.7339 0 00-.2764.063L16.686 8.307a.7329.7329 0 000 1.3361l6.2823 2.8134a.7378.7378 0 00.2993.0648.732.732 0 00.2973-1.401l-4.786-2.1443 4.786-2.1366a.7339.7339 0 00.3698-.9664.7339.7339 0 00-.69-.4327zm-22.499 5.032a.7316.7316 0 00-.7223.9149c1.736 6.677 7.7748 11.341 14.6822 11.341a.732.732 0 000-1.464 13.7055 13.7055 0 01-13.266-10.2449.7316.7316 0 00-.6939-.547z"
+        ></path></svg
+      >
+      <section slot="card-body" class="flex flex-col gap-6 p-6">
+        <div class="text-center font-sans-serif ">
+          <h1 class="font-semibold text-xl sm:text-2xl text-[#1c2022]">
+            Proyectos Para Iniciar en Frontend mentor
+          </h1>
+          <p class="font-normal text-sm sm:text-lg text-[#737373]">
+            Este linktree especial recopila las soluciones de los 4 proyectos
+            mas basicos para empezar a practicar en Frontend mentor
+          </p>
+        </div>
+        <ul class="flex flex-col gap-3 items-center">
+          {
+            listadoBasico.map((item) => {
+              return (
+                <li
+                  class="cursor-pointer btn btn-sm py-3 h-auto btn-outline hover:-translate-y-1 hover:scale-110 transition duration-200 ease-in-out border-2 border-galaxy-express hover:bg-galaxy-express hover:border-galaxy-express hover:text-white   rounded-2xl"
+                >
+                  <Link classlink="text-center font-sans-serif " href={item.src}>
+                    <h2>{item.titulo}</h2>
+                    <p>{item.descripcion}</p>
+                  </Link>
+                </li>
+              );
+            })
+          }
+        </ul>
+      </section>
+    </Card>
+  </main>
+  <footer>
+    <p class="text-center font-sans-serif text-[#1c2022]">© 2023 Pagina Diseñada por DEVJL</p>
+  </footer>
+</Layout>
+
+<style></style>
