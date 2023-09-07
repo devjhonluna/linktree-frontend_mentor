@@ -1,8 +1,7 @@
 # Linktree de frontend mentor
 
-```
 Este repositorio contiene un Linktree con enlaces a los 4 proyectos más básicos que puedes realizar en Frontend Mentor. Frontend Mentor es una plataforma que ofrece desafíos de diseño web para mejorar tus habilidades de desarrollo frontend. Estos proyectos son ideales para principiantes y te permitirán practicar HTML, CSS y JavaScript mientras creas sitios web hermosos y funcionales.
-```
+
 ## Version Mobil 
 
 ![image](https://github.com/kakashijihen/linktree-frontend_mentor/assets/106981529/6577a1dd-a44e-491b-8596-26e9a27cd3af)
