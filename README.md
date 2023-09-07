@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Linktree de frontend mentor
 
 ```
 npm create astro@latest -- --template basics
