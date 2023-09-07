@@ -1,33 +1,30 @@
 # Linktree de frontend mentor
 
 ```
-npm create astro@latest -- --template basics
+Este repositorio contiene un Linktree con enlaces a los 4 proyectos más básicos que puedes realizar en Frontend Mentor. Frontend Mentor es una plataforma que ofrece desafíos de diseño web para mejorar tus habilidades de desarrollo frontend. Estos proyectos son ideales para principiantes y te permitirán practicar HTML, CSS y JavaScript mientras creas sitios web hermosos y funcionales.
 ```
+## Version Mobil 
+```
+![image](https://github.com/kakashijihen/linktree-frontend_mentor/assets/106981529/6577a1dd-a44e-491b-8596-26e9a27cd3af)
+```
+## Version Desktop
+```
+![image](https://github.com/kakashijihen/linktree-frontend_mentor/assets/106981529/363f1414-16b1-4be0-a86e-f647451f100f)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+``` 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Proyectos Incluidos
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Este repositorio contiene un Linktree con enlaces a los 4 proyectos más básicos que puedes realizar en Frontend Mentor. Frontend Mentor es una plataforma que ofrece desafíos de diseño web para mejorar tus habilidades de desarrollo frontend. Estos proyectos son ideales para principiantes y te permitirán practicar HTML, CSS y JavaScript mientras creas sitios web hermosos y funcionales.
 
 ```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+1. **QR Card**: Crea un componente de tarjeta que muestra información y genera códigos QR. Este proyecto te ayudará a mejorar tus habilidades de diseño de tarjetas y trabajar con códigos QR dinámicos.
+
+2. **NFT Card**: Diseña una tarjeta para mostrar información sobre tokens no fungibles (NFT). Aprenderás a crear un diseño atractivo y a presentar datos de manera efectiva.
+
+3. **Product Card**: Desarrolla un componente de tarjeta para mostrar productos con detalles. Practicarás la maquetación de productos y cómo resaltar las características clave.
+
+4. **Stat Card**: Crea una tarjeta para mostrar estadísticas y datos. Este proyecto te permitirá trabajar en la visualización de datos y las animaciones.
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
@@ -38,16 +35,10 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+Visita el Linktree que esta en el Repositorio para acceder a los enlaces de los proyectos.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Selecciona el proyecto que te interese y haz clic en el enlace correspondiente.
+
 
 ## 👀 Want to learn more?
 
