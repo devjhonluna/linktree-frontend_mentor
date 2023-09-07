@@ -33,13 +33,11 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
+## 🧞Instrucciones
 
-Visita el Linktree que esta en el Repositorio para acceder a los enlaces de los proyectos.
+Visita el [LinkTree](https://kakashijihen.github.io/linktree-frontend_mentor/)  que esta en el Repositorio para acceder a los enlaces de los proyectos.
 
 Selecciona el proyecto que te interese y haz clic en el enlace correspondiente.
 
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
